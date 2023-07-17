@@ -1,13 +1,10 @@
-"""
-Python Recursion Video Course
-Robin Andrews - https://compucademy.net/
-"""
+#Lauren Looney CIS261  Recursive-and-Iterative-Factorials
 
 
 def factorial_recursive(n):
     if n <= 1:
         #base case
-        return 1
+        return 1 
     else:
         #recursive case
         return n * factorial_recursive(n-1)
